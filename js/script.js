@@ -1,8 +1,10 @@
 console.log('ok');
-const app = new Vue({
-    el: '#app',
+
+const root = new Vue({
+    el: '#root',
     data: {
-        saluto: "TITOLO",
-        pathImage: 'img/image.jpg'
+        message: 'ciao',
+        image: 'img/image.jpg'
     }
-});
+}
+)
